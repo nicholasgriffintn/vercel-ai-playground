@@ -53,7 +53,7 @@ export function EmptyScreen({
         </div>
       </div>
       <p className="leading-normal text-muted-foreground text-[0.8rem] text-center">
-        Note: This is not test information.
+        Note: This is real information but 2 years out of date.
       </p>
     </div>
   );
