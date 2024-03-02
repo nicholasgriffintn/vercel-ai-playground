@@ -3,6 +3,10 @@ import { IconArrowRight } from '@/components/ui/icons';
 
 const exampleMessages = [
   {
+    heading: "What are last years's pageviews?",
+    message: 'Page views from 2022 to 2023 as a line chart',
+  },
+  {
     heading: 'What is the most popular content?',
     message: 'What is the most popular content?',
   },

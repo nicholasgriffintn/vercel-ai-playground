@@ -66,7 +66,7 @@ export function SystemMessage({ children }: { children: React.ReactNode }) {
         'mt-2 flex items-center justify-center gap-2 text-xs text-gray-500'
       }
     >
-      <div className={'max-w-[600px] flex-initial px-2 py-2'}>{children}</div>
+      <div className={'max-w-[600px] flex-initial'}>{children}</div>
     </div>
   );
 }

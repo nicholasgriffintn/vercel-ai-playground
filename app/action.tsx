@@ -77,10 +77,7 @@ async function submitUserMessage(content: string) {
       const html = file.toString();
       reply.update(
         <BotMessage>
-          <div
-            className="py-4"
-            dangerouslySetInnerHTML={{ __html: html }}
-          ></div>
+          <div dangerouslySetInnerHTML={{ __html: html }}></div>
         </BotMessage>
       );
       if (isFinal) {
@@ -125,7 +122,7 @@ async function submitUserMessage(content: string) {
         reply.done(
           <BotCard>
             <SystemMessage>
-              <div className="py-4">
+              <div>
                 <p>Error querying data</p>
               </div>
             </SystemMessage>
@@ -139,14 +136,14 @@ async function submitUserMessage(content: string) {
       reply.done(
         <BotCard>
           <SystemMessage>
-            <div className="py-4">
+            <div>
               <Chart
                 chartType={format}
                 queryResult={queryRes}
                 title={title}
                 timeField={timeField}
               />
-              <div className="py-4">
+              <div>
                 <Code lang="sql">{query}</Code>
               </div>
             </div>
