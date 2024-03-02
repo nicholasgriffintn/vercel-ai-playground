@@ -13,7 +13,7 @@ import { Providers } from '@/components/providers';
 const meta = {
   title: 'AI RSC Demo',
   description:
-    'Demo of an interactive financial assistant built using Next.js and Vercel AI SDK.',
+    'Demo of an interactive assistant built using Next.js and Vercel AI SDK.',
 };
 export const metadata: Metadata = {
   ...meta,
@@ -23,13 +23,12 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: '/favicon.ico',
-    shortcut: '/favicon-16x16.png',
-    apple: '/apple-touch-icon.png',
+    shortcut: '/meta/favicon-16x16.png',
+    apple: '/meta/apple-icon.png',
   },
   twitter: {
     ...meta,
     card: 'summary_large_image',
-    site: '@vercel',
   },
   openGraph: {
     ...meta,
