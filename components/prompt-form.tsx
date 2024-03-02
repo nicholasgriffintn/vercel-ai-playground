@@ -4,7 +4,7 @@ import * as React from 'react';
 import Textarea from 'react-textarea-autosize';
 
 import { useActions, useUIState } from 'ai/rsc';
-import { UserMessage } from '@/components/llm-stocks/message';
+import { UserMessage } from '@/components/llm/message';
 import { type AI } from '@/app/action';
 import { Button, buttonVariants } from '@/components/ui/button';
 import { IconArrowElbow, IconPlus } from '@/components/ui/icons';

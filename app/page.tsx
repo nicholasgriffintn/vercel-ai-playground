@@ -1,14 +1,13 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import { useUIState, useActions } from 'ai/rsc';
+import Textarea from 'react-textarea-autosize';
 
-import { useUIState, useActions, useAIState } from 'ai/rsc';
-import { UserMessage } from '@/components/llm-stocks/message';
-
+import { UserMessage } from '@/components/llm/message';
 import { type AI } from './action';
 import { ChatScrollAnchor } from '@/lib/hooks/chat-scroll-anchor';
 import { FooterText } from '@/components/footer';
-import Textarea from 'react-textarea-autosize';
 import { useEnterSubmit } from '@/lib/hooks/use-enter-submit';
 import {
   Tooltip,

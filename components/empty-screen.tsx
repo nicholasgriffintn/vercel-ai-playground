@@ -3,8 +3,20 @@ import { IconArrowRight } from '@/components/ui/icons';
 
 const exampleMessages = [
   {
-    heading: 'What is the trending content?',
-    message: 'What is the trending content?',
+    heading: 'What is the most popular content?',
+    message: 'What is the most popular content?',
+  },
+  {
+    heading: 'What is the most popular content by region?',
+    message: 'What is the most popular content by region?',
+  },
+  {
+    heading: 'What is the most popular content by device?',
+    message: 'What is the most popular content by device?',
+  },
+  {
+    heading: 'What is the most popular content by age?',
+    message: 'What is the most popular content by age?',
   },
 ];
 
@@ -41,7 +53,7 @@ export function EmptyScreen({
         </div>
       </div>
       <p className="leading-normal text-muted-foreground text-[0.8rem] text-center">
-        Note: This is not real information.
+        Note: This is not test information.
       </p>
     </div>
   );
