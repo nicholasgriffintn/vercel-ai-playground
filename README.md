@@ -5,3 +5,7 @@ Playing around with the new update to the vercel ai sdk, building off their [exi
 Head over to their [GitHub repo](https://github.com/vercel/ai) for the original code and more information.
 
 Also, took a few bits of code from [this repo](https://github.com/RhysSullivan/hogchat/tree/main) for the PostHog processing.
+
+## Demo
+
+![A demo of the Vercel AI Playground showing some sample queries and their responses.](demo.gif "Demo")
